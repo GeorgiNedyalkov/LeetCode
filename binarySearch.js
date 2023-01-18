@@ -37,3 +37,16 @@ function recursiveBinarySearch(nums, start, end, target) {
 }
 
 result = recursiveBinarySearch(nums, 0, nums.length - 1, 9);
+
+// cheat solution
+
+function cheatBinarySearch(nums, target) {
+  const search = nums.find((n) => n === target);
+
+  if (search === undefined) return -1;
+  else return nums.indexOf(search);
+}
+
+result = cheatBinarySearch(nums, 13);
+
+console.log(result);

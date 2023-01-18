@@ -98,3 +98,4 @@ Output: -1
 provide two solutions: iterative and recursive
 
 Explanation of algo: [Binary Search](https://cs50.harvard.edu/x/2023/shorts/binary_search/)
+Additional explanation: [Binary Search Leet Code](https://leetcode.com/explore/learn/card/binary-search/)
