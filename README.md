@@ -76,4 +76,25 @@ Left sum = 0 (no elements to the left of index 0)
 Right sum = nums[1] + nums[2] = 1 + -1 = 0
 ```
 
-# Problem 3
+# Algorithm Problems
+
+## Problem 1: Binary Search
+
+Given an array of integer `nums` which is sorted in ascending order, and an integer `target`,
+write a function to search `target` in `nums`. If target exists, then return its index.
+Otherwise, return -1.
+
+You must write an algorithm in `O(log n)` runtime complexity.
+
+Example 1:
+
+Input: nums = [-1, 0, 3, 5, 9, 12], target = 9
+Output: 4
+
+Example 2:
+Input: nums = [-1, 0, 3, 5, 9, 12], target = 2
+Output: -1
+
+provide two solutions: iterative and recursive
+
+Explanation of algo: [Binary Search](https://cs50.harvard.edu/x/2023/shorts/binary_search/)
