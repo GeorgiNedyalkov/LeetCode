@@ -76,6 +76,17 @@ Left sum = 0 (no elements to the left of index 0)
 Right sum = nums[1] + nums[2] = 1 + -1 = 0
 ```
 
+## Problem: Merge Two Sorted Lists
+
+You are given the heads of two sorted (non-decreasing) linked lists `list1` and `list2`
+Merge the two lists into one _sorted_ list. The list should be made by splicing together of the first two lists.
+
+Return the head of the merged linked lists
+
+Example 1:
+Input: list1 = [1, 2, 4], list2 = [1, 3, 4]
+Output: [1, 1, 2, 3, 4, 4]
+
 # Algorithm Problems
 
 ## Problem 1: Binary Search
